@@ -10,4 +10,8 @@
     Private Sub Label1_Click(sender As Object, e As EventArgs)
 
     End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles usFlag.Click
+
+    End Sub
 End Class
