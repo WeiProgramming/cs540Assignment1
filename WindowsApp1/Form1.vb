@@ -11,7 +11,7 @@
 
     End Sub
 
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles usFlag.Click
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles usaPictureBox.Click
 
     End Sub
 End Class

@@ -24,10 +24,10 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.greetingLabel = New System.Windows.Forms.Label()
         Me.exitButton = New System.Windows.Forms.Button()
-        Me.belarusFlag = New System.Windows.Forms.PictureBox()
-        Me.usFlag = New System.Windows.Forms.PictureBox()
-        CType(Me.belarusFlag, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.usFlag, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.belarusPictureBox = New System.Windows.Forms.PictureBox()
+        Me.usaPictureBox = New System.Windows.Forms.PictureBox()
+        CType(Me.belarusPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.usaPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'greetingLabel
@@ -52,45 +52,45 @@ Partial Class Form1
         Me.exitButton.Text = "Exit"
         Me.exitButton.UseVisualStyleBackColor = False
         '
-        'belarusFlag
+        'belarusPictureBox
         '
-        Me.belarusFlag.Image = Global.WindowsApp1.My.Resources.Resources.belarus_flag
-        Me.belarusFlag.Location = New System.Drawing.Point(361, 175)
-        Me.belarusFlag.Name = "belarusFlag"
-        Me.belarusFlag.Size = New System.Drawing.Size(152, 69)
-        Me.belarusFlag.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.belarusFlag.TabIndex = 4
-        Me.belarusFlag.TabStop = False
+        Me.belarusPictureBox.Image = Global.WindowsApp1.My.Resources.Resources.belarus_flag
+        Me.belarusPictureBox.Location = New System.Drawing.Point(361, 175)
+        Me.belarusPictureBox.Name = "belarusPictureBox"
+        Me.belarusPictureBox.Size = New System.Drawing.Size(152, 69)
+        Me.belarusPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.belarusPictureBox.TabIndex = 4
+        Me.belarusPictureBox.TabStop = False
         '
-        'usFlag
+        'usaPictureBox
         '
-        Me.usFlag.Image = Global.WindowsApp1.My.Resources.Resources._1280px_Flag_of_the_United_States_svg
-        Me.usFlag.Location = New System.Drawing.Point(179, 175)
-        Me.usFlag.Name = "usFlag"
-        Me.usFlag.Size = New System.Drawing.Size(146, 69)
-        Me.usFlag.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.usFlag.TabIndex = 3
-        Me.usFlag.TabStop = False
+        Me.usaPictureBox.Image = Global.WindowsApp1.My.Resources.Resources._1280px_Flag_of_the_United_States_svg
+        Me.usaPictureBox.Location = New System.Drawing.Point(179, 175)
+        Me.usaPictureBox.Name = "usaPictureBox"
+        Me.usaPictureBox.Size = New System.Drawing.Size(146, 69)
+        Me.usaPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.usaPictureBox.TabIndex = 3
+        Me.usaPictureBox.TabStop = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(695, 370)
-        Me.Controls.Add(Me.belarusFlag)
-        Me.Controls.Add(Me.usFlag)
+        Me.Controls.Add(Me.belarusPictureBox)
+        Me.Controls.Add(Me.usaPictureBox)
         Me.Controls.Add(Me.exitButton)
         Me.Controls.Add(Me.greetingLabel)
         Me.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Name = "Form1"
         Me.Text = "CS 540 Program 1"
-        CType(Me.belarusFlag, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.usFlag, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.belarusPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.usaPictureBox, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents greetingLabel As Label
     Friend WithEvents exitButton As Button
-    Friend WithEvents usFlag As PictureBox
-    Friend WithEvents belarusFlag As PictureBox
+    Friend WithEvents usaPictureBox As PictureBox
+    Friend WithEvents belarusPictureBox As PictureBox
 End Class
